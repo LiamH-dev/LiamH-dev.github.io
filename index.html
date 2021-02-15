@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-us" style="margin-left: 322px;">
+
+  <head>
+  <style>
+  body {background-image: url("bg2.jpg");}
+  h1   {color: white;}
+  h3   {color: white;}
+  p    {color: red;}
+  
+  .container{
+	text align:center;
+  }
+  @font-face {
+      font-family: myFirstFont;
+      src: url(Franchise.ttf);
+  }
+  div {
+      font-family: myFirstFont;
+  } 
+  </style>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧪</text></svg>"/>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Liam's Vanadium Project</title>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      UnityLoader.instantiate("unityContainer", "Build/Build.json");
+    </script>
+  </head>
+  <body>
+      
+      <div id="container">
+      	  
+          <font size="+3"><h1>Vanadium project</h1></font>
+       
+          <font size="+2"><h3>By: Liam Hohertz</h3></font>
+      </div>
+      <div id="unityContainer" style="width: 742px; height: 464px; left-padding:400;"></div>
+  </body>
+</html>
